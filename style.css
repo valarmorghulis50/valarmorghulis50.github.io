@@ -1,0 +1,39 @@
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Luckiest Guy', cursive;
+  background: url("VID-20210314-WA0018.mp4");
+
+  background-size: cover;
+
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+h1{
+  color: pink;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+  font-size: 6rem;
+  text-decoration: none;
+}
